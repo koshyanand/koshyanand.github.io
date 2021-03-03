@@ -22,19 +22,7 @@ body {
       font-size: 16px; } 
       h2{
           text-align: center;
-      }
-canvas {
-  background: #EEE;
-  position: fixed;
-  top: 0;
-  left: 0;
-}}
-canvas {
-  background: #EEE;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+      }}
 
 a {
   color: #2c98f0;
@@ -116,7 +104,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-    background-color: #f9bf3f;
+    background-color: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -129,7 +117,7 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em;
-	  background-color: #f9bf3f;
+	  background-color: #f2f3f7;
         height: auto;
       } }
   #colorlib-aside .author-img {
@@ -163,6 +151,17 @@ figure {
       text-align: center;
       color: #000;
       padding-right: .3em;}
+  
+  #colorlib-logo1 a {
+      font-weight: 700;
+      font-size: 30px;
+      margin-bottom: .5em;
+      display: block;
+      width: 100%;
+      text-align: center;
+      color: #000;
+      padding-right: .3em;}
+      
   #colorlib-aside #colorlib-main-menu {
     display: block;
     width: 100%; }
@@ -410,7 +409,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background-color: #f9bf3f;
+    background-color: #f2f3f7;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -442,7 +441,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-footer,
 .colorlib-contact{
-  padding-top: 5em;
+  padding-top: 2em;
   padding-bottom: 0em;
   clear: both;
   width: 100%;
@@ -514,11 +513,6 @@ margin-left: 10px;}
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500; }
-
-.about-desc h1 {
-  font-size: 38px;
-  font-weight: 400;
-font-family: "Montserrat", Georgia, serif;}
 
 .hire {
   padding: 2em;
@@ -666,7 +660,7 @@ font-family: "Montserrat", Georgia, serif;}
   position: absolute;
   display: block;
   width: 4px;
-  background: #f9bf3f;
+  background: #f2f3f7;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -715,7 +709,7 @@ font-family: "Montserrat", Georgia, serif;}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f9bf3f;
+  background: #f2f3f7;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -785,15 +779,10 @@ font-family: "Montserrat", Georgia, serif;}
     border-bottom: 2px solid #a84cb8; }
     .services.color-4 .icon2 i {
       color: #a84cb8; }
-  .services.color-5  {
+  .services.color-5 {
     border-bottom: 2px solid #2fa499; }
-
-  .services.color-5 .icon2 i {
-    color: #2fa499; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
-.services.color-6 .icon2 i {
-    color: #4054b2; }
 
 .services {
   margin-bottom: 80px;
@@ -1602,15 +1591,3 @@ align-items: stretch;}
 /* Buy me a coffe button css*/
 .bmc-button img{width: 27px !important;margin-bottom: 0px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{line-height: 36px !important;height:37px !important;text-decoration: none !important;display:inline-flex !important;color:#FFFFFF !important;background-color:#000 !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 1px 9px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#FFFFFF !important;}
 
-.capsule {
-    background-color: #ddd;
-  border: none;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
-}
