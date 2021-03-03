@@ -1,5 +1,5 @@
 # Portfolio Website.
-Link to my profile: https://damanpreet.github.io/
+Link to my profile: https://koshyanand.github.io/
 
 
 Thanks to Vinay Somawat for the template
